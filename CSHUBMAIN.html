@@ -1,0 +1,246 @@
+
+
+<div class="header" id="overlay">
+
+  <style>
+  .header {
+  
+  background-color: grey;
+  z-index: 1000000;
+  position: relative;
+  width: 500px;
+  height: 800px;
+  border-radius: 10px;
+  opacity: 05;
+  
+}
+
+.close {
+  
+  text-align: right;
+  background-color: red;
+  width: 20px;
+  border-radius: 100%;
+  height: 20px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(420px, -35px);
+}
+
+.header2 {
+  
+  background-color: black;
+  width: 500px;
+  height: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
+}
+
+.open {
+  
+  text-align: right;
+  background-color: green;
+  width: 20px;
+  border-radius: 100%;
+  height: 20px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(415px, -35px);
+}
+
+
+button {
+  
+  font-family: VCR OSD Mono;
+  color: grey;
+  background-color: black;
+  transform: translate(10px, 50px);
+  
+}
+
+.buttonCon {
+  
+transform: translate(10px);
+
+  
+}
+
+.IETHING {
+  
+  
+  
+}
+
+p {
+  
+  color: white;
+  text-align: center;
+  transform: translate(0px,3px);
+  font-family: verdana;
+}
+
+  </style>
+
+  <script>
+  
+  	var offset = [0,0];
+var divOverlay = document.getElementById ("overlay");
+var isDown = false;
+
+divOverlay.addEventListener('mousedown', function(e) {
+isDown = true;
+offset = [
+    divOverlay.offsetLeft - e.clientX,
+    divOverlay.offsetTop - e.clientY
+ ];
+}, true);
+
+document.addEventListener('mouseup', function() {
+   isDown = false;
+}, true);
+
+document.addEventListener('mousemove', function(e) {
+    event.preventDefault();
+    if (isDown) {
+        divOverlay.style.left = (e.clientX + offset[0]) + 'px';
+        divOverlay.style.top  = (e.clientY + offset[1]) + 'px';
+   }
+}, true);
+  
+  </script>
+  
+ 
+  <div class="header2" id='header2'>
+     <p>
+     CS (V.1)
+     </p>
+     
+  <div class='buttoncon'>
+    
+     ㅤ
+    <div class="open" id="open" onclick=oodood()>
+  <script>
+  
+  function oodood(){
+  
+  document.getElementById("overlay").style.visibility = "visible";
+  
+  document.getElementById("overlay").style.visibility = "visible";
+  
+  var audio = new Audio('https://github.com/WaqarSarfaraz/Xamarin-Button-Click-Sound-Effect/blob/master/SoundEffect/Audio/sd2.wav?raw=true')
+  
+  audio.play()
+  
+  }
+  
+  </script>
+  </div>
+  
+  
+      <div class="close" id="close" onclick=doodoo()>
+       <script>
+      
+       </script>
+     </div>
+     
+     
+     
+     <script>
+     function doodoo(){
+     
+     function $(){document.getElementById('x')}
+     
+     
+     
+  var audio = new Audio('https://github.com/WaqarSarfaraz/Xamarin-Button-Click-Sound-Effect/blob/master/SoundEffect/Audio/sd2.wav?raw=true')
+  
+  audio.play()
+  
+     document.getElementById("overlay").style.visibility = "hidden"; 
+     
+     document.getElementById("header2").style.visibility = "visible"; 
+     
+ 
+  
+     
+     }
+     
+     
+     </script>
+  
+  </div>
+  
+  
+   
+  </div>
+  
+   <button type="button" id="IETHING" onclick=loadIE()>Inspect Element</button>
+  <script>
+  
+  function loadIE(){
+  
+  
+  var audio = new Audio('https://github.com/WaqarSarfaraz/Xamarin-Button-Click-Sound-Effect/blob/master/SoundEffect/Audio/sd2.wav?raw=true')
+  
+  audio.play()
+  
+  javascript:(function () {     var script =  document.createElement('script');    script.src="//cdn.jsdelivr.net/npm/eruda";     document.body.appendChild(script);    script.onload = function () {         eruda.init()     } })();
+  
+  }
+  
+  
+  
+  </script>
+  
+  <button type="button" onclick=DUDE()>
+  
+  Basic Calculator
+  
+    <script>
+  
+  function DUDE(){
+  
+  var audio = new Audio('https://github.com/WaqarSarfaraz/Xamarin-Button-Click-Sound-Effect/blob/master/SoundEffect/Audio/sd2.wav?raw=true')
+  
+  audio.play()
+  
+  javascript:var evl,em,expr=prompt('Formula... (eg: 2*3 + 7/8)','');with(Math)try{evl= parseFloat(eval(expr));if(isNaN(evl)) {throw Error('Not a number!');}void(prompt ('Result:',evl));}catch(em){alert(em);}
+  
+  }
+  
+  
+
+  
+  </script>
+  
+  
+  </button>
+
+  
+</div>
+
+<script>
+
+
+function worker(){
+
+	var working = true;
+  
+  if (working == false){
+  
+  	if (document.getElementById("overlay").style.visibility = "hidden") {
+    
+    	
+    
+    }
+  
+  }
+
+}
+	
+
+</script>
+
